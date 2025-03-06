@@ -1,0 +1,122 @@
+@font-face {
+    font-family: Street;
+    src: url(font/street.otf);
+    font-weight: 500;
+}
+
+.body-street {
+    background-image: url(img/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.title {
+    font-family: Street;
+    color: crimson;
+    font-size: 46px;
+    margin: auto;
+    text-align:center;
+}
+
+.char-table {
+    width: 600px;
+    height: 800px;
+    border: 10px outset rgb(237,175,5);
+    border-radius: 10px;
+    background-color: black;
+    margin: auto;
+}
+
+.table-header {
+    background-image: url(img/fondocabecera.jpg);
+    /* Background position y repeat son propiedades necesarias para que la 
+    imagen se muestre correctamente ajustada al fondo de la celda */
+    background-position: center;
+    background-size: cover;
+    height: 40px;
+    color: whitesmoke;
+    opacity: 0.5;
+    font-family: Street;
+    font-size: 40px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid grey;
+}
+
+.table-cell {
+    width: 40px;
+    height: 45px;
+    font-family: Street;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: darkorange;
+    text-align: center;
+    margin: auto;
+}
+
+.second-title {
+    font-family: Street;
+    color: crimson;
+    font-size: 28px;
+    text-align: center;
+    margin: auto;
+}
+
+.signup-form {
+    width: 600px;
+    height: 1100px;
+    border: 10px outset rgb(237,175,5);
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    margin: auto;
+    font-size: 16px;
+    font-family: Verdana;
+}
+
+/* Empleo este selector por comodidad, así no tengo que establecer una clase 
+para cada legend uno a uno, labels, etc */
+.signup-form > fieldset > legend {
+    font-family: Street;
+    font-size: 14px;
+    color: rgb(237,175,5);
+}
+
+.field-persdata {
+    margin: 20px 0;
+}
+
+.signup-form > .field-persdata > label {
+    display: block;
+    margin: 15px 0;
+}
+
+#address {
+    margin: 0;
+    padding: 0;
+}
+
+.form-button {
+    border: 1px solid crimson;
+    border-radius: 5px;
+    background-color: crimson;
+    font-family: Street;
+    font-size: 18px;
+    color: white;
+    width: 200px;
+    height: 50px;
+    margin-left: 65px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 560px;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
